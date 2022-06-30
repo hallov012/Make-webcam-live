@@ -72,11 +72,19 @@ export default {
   outline: none;
   border: solid 2px black;
   border-radius: 10px;
-  background: #ffffff75;
-  color: #000000;
   margin-left: .5rem;
+  background: white;
 }
 
-.start-btn:hover {
+.buttons button:nth-child(1) {
+  background: black;
+  color: white;
+  transition: .3s;
 }
+
+.buttons button:nth-child(1):hover {
+  transform: scale(1.1);
+  box-shadow: 0px 3px rgb(129, 129, 129);
+}
+
 </style>
